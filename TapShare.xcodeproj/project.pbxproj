@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1B864F918099F4600AE2122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B864F818099F4600AE2122 /* Foundation.framework */; };
+		C1B864FB18099F4600AE2122 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B864FA18099F4600AE2122 /* CoreGraphics.framework */; };
+		C1B864FD18099F4600AE2122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B864FC18099F4600AE2122 /* UIKit.framework */; };
+		C1B8650318099F4600AE2122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1B8650118099F4600AE2122 /* InfoPlist.strings */; };
+		C1B8650518099F4600AE2122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B8650418099F4600AE2122 /* main.m */; };
+		C1B8650918099F4600AE2122 /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B8650818099F4600AE2122 /* TSAppDelegate.m */; };
+		C1B8650C18099F4600AE2122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B8650A18099F4600AE2122 /* Main.storyboard */; };
+		C1B8650F18099F4600AE2122 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B8650E18099F4600AE2122 /* TSViewController.m */; };
+		C1B8651118099F4600AE2122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B8651018099F4600AE2122 /* Images.xcassets */; };
+		C1B8651818099F4600AE2122 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B8651718099F4600AE2122 /* XCTest.framework */; };
+		C1B8651918099F4600AE2122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B864F818099F4600AE2122 /* Foundation.framework */; };
+		C1B8651A18099F4600AE2122 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B864FC18099F4600AE2122 /* UIKit.framework */; };
+		C1B8652218099F4600AE2122 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1B8652018099F4600AE2122 /* InfoPlist.strings */; };
+		C1B8652418099F4600AE2122 /* TapShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B8652318099F4600AE2122 /* TapShareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1B8651B18099F4600AE2122 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B864ED18099F4600AE2122 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B864F418099F4600AE2122;
+			remoteInfo = TapShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1B864F518099F4600AE2122 /* TapShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B864F818099F4600AE2122 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1B864FA18099F4600AE2122 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1B864FC18099F4600AE2122 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1B8650018099F4600AE2122 /* TapShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapShare-Info.plist"; sourceTree = "<group>"; };
+		C1B8650218099F4600AE2122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1B8650418099F4600AE2122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1B8650618099F4600AE2122 /* TapShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapShare-Prefix.pch"; sourceTree = "<group>"; };
+		C1B8650718099F4600AE2122 /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		C1B8650818099F4600AE2122 /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		C1B8650B18099F4600AE2122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B8650D18099F4600AE2122 /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		C1B8650E18099F4600AE2122 /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		C1B8651018099F4600AE2122 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1B8651618099F4600AE2122 /* TapShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B8651718099F4600AE2122 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C1B8651F18099F4600AE2122 /* TapShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapShareTests-Info.plist"; sourceTree = "<group>"; };
+		C1B8652118099F4600AE2122 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1B8652318099F4600AE2122 /* TapShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapShareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B864F218099F4600AE2122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B864FB18099F4600AE2122 /* CoreGraphics.framework in Frameworks */,
+				C1B864FD18099F4600AE2122 /* UIKit.framework in Frameworks */,
+				C1B864F918099F4600AE2122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B8651318099F4600AE2122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B8651818099F4600AE2122 /* XCTest.framework in Frameworks */,
+				C1B8651A18099F4600AE2122 /* UIKit.framework in Frameworks */,
+				C1B8651918099F4600AE2122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1B864EC18099F4600AE2122 = {
+			isa = PBXGroup;
+			children = (
+				C1B864FE18099F4600AE2122 /* TapShare */,
+				C1B8651D18099F4600AE2122 /* TapShareTests */,
+				C1B864F718099F4600AE2122 /* Frameworks */,
+				C1B864F618099F4600AE2122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B864F618099F4600AE2122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B864F518099F4600AE2122 /* TapShare.app */,
+				C1B8651618099F4600AE2122 /* TapShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B864F718099F4600AE2122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1B864F818099F4600AE2122 /* Foundation.framework */,
+				C1B864FA18099F4600AE2122 /* CoreGraphics.framework */,
+				C1B864FC18099F4600AE2122 /* UIKit.framework */,
+				C1B8651718099F4600AE2122 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B864FE18099F4600AE2122 /* TapShare */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8650718099F4600AE2122 /* TSAppDelegate.h */,
+				C1B8650818099F4600AE2122 /* TSAppDelegate.m */,
+				C1B8650A18099F4600AE2122 /* Main.storyboard */,
+				C1B8650D18099F4600AE2122 /* TSViewController.h */,
+				C1B8650E18099F4600AE2122 /* TSViewController.m */,
+				C1B8651018099F4600AE2122 /* Images.xcassets */,
+				C1B864FF18099F4600AE2122 /* Supporting Files */,
+			);
+			path = TapShare;
+			sourceTree = "<group>";
+		};
+		C1B864FF18099F4600AE2122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8650018099F4600AE2122 /* TapShare-Info.plist */,
+				C1B8650118099F4600AE2122 /* InfoPlist.strings */,
+				C1B8650418099F4600AE2122 /* main.m */,
+				C1B8650618099F4600AE2122 /* TapShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1B8651D18099F4600AE2122 /* TapShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8652318099F4600AE2122 /* TapShareTests.m */,
+				C1B8651E18099F4600AE2122 /* Supporting Files */,
+			);
+			path = TapShareTests;
+			sourceTree = "<group>";
+		};
+		C1B8651E18099F4600AE2122 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1B8651F18099F4600AE2122 /* TapShareTests-Info.plist */,
+				C1B8652018099F4600AE2122 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B864F418099F4600AE2122 /* TapShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B8652718099F4600AE2122 /* Build configuration list for PBXNativeTarget "TapShare" */;
+			buildPhases = (
+				C1B864F118099F4600AE2122 /* Sources */,
+				C1B864F218099F4600AE2122 /* Frameworks */,
+				C1B864F318099F4600AE2122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapShare;
+			productName = TapShare;
+			productReference = C1B864F518099F4600AE2122 /* TapShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1B8651518099F4600AE2122 /* TapShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B8652A18099F4600AE2122 /* Build configuration list for PBXNativeTarget "TapShareTests" */;
+			buildPhases = (
+				C1B8651218099F4600AE2122 /* Sources */,
+				C1B8651318099F4600AE2122 /* Frameworks */,
+				C1B8651418099F4600AE2122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B8651C18099F4600AE2122 /* PBXTargetDependency */,
+			);
+			name = TapShareTests;
+			productName = TapShareTests;
+			productReference = C1B8651618099F4600AE2122 /* TapShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B864ED18099F4600AE2122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Julian Boyce";
+				TargetAttributes = {
+					C1B8651518099F4600AE2122 = {
+						TestTargetID = C1B864F418099F4600AE2122;
+					};
+				};
+			};
+			buildConfigurationList = C1B864F018099F4600AE2122 /* Build configuration list for PBXProject "TapShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B864EC18099F4600AE2122;
+			productRefGroup = C1B864F618099F4600AE2122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B864F418099F4600AE2122 /* TapShare */,
+				C1B8651518099F4600AE2122 /* TapShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B864F318099F4600AE2122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B8651118099F4600AE2122 /* Images.xcassets in Resources */,
+				C1B8650318099F4600AE2122 /* InfoPlist.strings in Resources */,
+				C1B8650C18099F4600AE2122 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B8651418099F4600AE2122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B8652218099F4600AE2122 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B864F118099F4600AE2122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B8650518099F4600AE2122 /* main.m in Sources */,
+				C1B8650918099F4600AE2122 /* TSAppDelegate.m in Sources */,
+				C1B8650F18099F4600AE2122 /* TSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B8651218099F4600AE2122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B8652418099F4600AE2122 /* TapShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1B8651C18099F4600AE2122 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B864F418099F4600AE2122 /* TapShare */;
+			targetProxy = C1B8651B18099F4600AE2122 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1B8650118099F4600AE2122 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B8650218099F4600AE2122 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1B8650A18099F4600AE2122 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B8650B18099F4600AE2122 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B8652018099F4600AE2122 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B8652118099F4600AE2122 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B8652518099F4600AE2122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1B8652618099F4600AE2122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B8652818099F4600AE2122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapShare/TapShare-Prefix.pch";
+				INFOPLIST_FILE = "TapShare/TapShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C1B8652918099F4600AE2122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapShare/TapShare-Prefix.pch";
+				INFOPLIST_FILE = "TapShare/TapShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C1B8652B18099F4600AE2122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapShare.app/TapShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapShare/TapShare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TapShareTests/TapShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C1B8652C18099F4600AE2122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapShare.app/TapShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapShare/TapShare-Prefix.pch";
+				INFOPLIST_FILE = "TapShareTests/TapShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B864F018099F4600AE2122 /* Build configuration list for PBXProject "TapShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B8652518099F4600AE2122 /* Debug */,
+				C1B8652618099F4600AE2122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B8652718099F4600AE2122 /* Build configuration list for PBXNativeTarget "TapShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B8652818099F4600AE2122 /* Debug */,
+				C1B8652918099F4600AE2122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1B8652A18099F4600AE2122 /* Build configuration list for PBXNativeTarget "TapShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B8652B18099F4600AE2122 /* Debug */,
+				C1B8652C18099F4600AE2122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B864ED18099F4600AE2122 /* Project object */;
+}
